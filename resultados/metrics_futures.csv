@@ -1,0 +1,6 @@
+version,procesos_p,tiempo_medio_s,desv_estandar_s,speedup,eficiencia,fraccion_paralela_f_amdahl,speedup_teorico_amdahl,correctitud
+Secuencial (base),1,2.326156,0.062249,1.0000,1.0000,-,1.0000,Referencia
+concurrent.futures,1,2.658076,0.074482,0.8751,0.8751,-,1.0000,OK
+concurrent.futures,2,1.766223,0.333490,1.3170,0.6585,0.4814,1.5688,OK
+concurrent.futures,4,1.061046,0.020478,2.1923,0.5481,0.7252,2.1923,OK
+concurrent.futures,8,1.201792,0.053942,1.9356,0.2419,0.5524,2.7360,OK
